@@ -1,0 +1,3186 @@
+{
+  "timestamp": "01/21/2025 14:15:48",
+  "type": "verbose",
+  "filename": "Deploy",
+  "content": "Checking for ADE CLI updates"
+}
+{
+  "timestamp": "01/21/2025 14:15:50",
+  "type": "verbose",
+  "filename": "Deploy",
+  "content": "ADE CLI is up to date"
+}
+{
+  "timestamp": "01/21/2025 14:15:51",
+  "type": "verbose",
+  "filename": "Deploy",
+  "content": "Initializing runner"
+}
+{
+  "timestamp": "01/21/2025 14:15:54",
+  "type": "verbose",
+  "filename": "Deploy",
+  "content": "Downloading environment state to /ade/storage"
+}
+{
+  "timestamp": "01/21/2025 14:15:56",
+  "type": "verbose",
+  "filename": "Deploy",
+  "content": "Selecting catalog directory: /ade/repository/Environments/AppConfig-tf"
+}
+{
+  "timestamp": "01/21/2025 14:15:57",
+  "type": "verbose",
+  "filename": "Deploy",
+  "content": "Executing script (/scripts/deploy.sh)"
+}
+{
+  "timestamp": "01/21/2025 14:15:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:15:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ">>> Terraform Info..."
+}
+{
+  "timestamp": "01/21/2025 14:15:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:15:59",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "Terraform v1.7.4"
+}
+{
+  "timestamp": "01/21/2025 14:15:59",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "on linux_amd64"
+}
+{
+  "timestamp": "01/21/2025 14:15:59",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:15:59",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "Your version of Terraform is out of date! The latest version"
+}
+{
+  "timestamp": "01/21/2025 14:15:59",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "is 1.10.4. You can update by downloading from https://www.terraform.io/downloads.html"
+}
+{
+  "timestamp": "01/21/2025 14:15:59",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:15:59",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ">>> Initializing Terraform..."
+}
+{
+  "timestamp": "01/21/2025 14:15:59",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:15:59",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:15:59",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "Initializing the backend..."
+}
+{
+  "timestamp": "01/21/2025 14:15:59",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:15:59",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "Initializing provider plugins..."
+}
+{
+  "timestamp": "01/21/2025 14:15:59",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "- Finding latest version of hashicorp/azurerm..."
+}
+{
+  "timestamp": "01/21/2025 14:15:59",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "- Installing hashicorp/azurerm v4.16.0..."
+}
+{
+  "timestamp": "01/21/2025 14:16:03",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "- Installed hashicorp/azurerm v4.16.0 (signed by HashiCorp)"
+}
+{
+  "timestamp": "01/21/2025 14:16:03",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:16:03",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "Terraform has created a lock file .terraform.lock.hcl to record the provider"
+}
+{
+  "timestamp": "01/21/2025 14:16:03",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "selections it made above. Include this file in your version control repository"
+}
+{
+  "timestamp": "01/21/2025 14:16:03",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "so that Terraform can guarantee to make the same selections by default when"
+}
+{
+  "timestamp": "01/21/2025 14:16:03",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "you run \"terraform init\" in the future."
+}
+{
+  "timestamp": "01/21/2025 14:16:03",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:16:03",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "Terraform has been successfully initialized!"
+}
+{
+  "timestamp": "01/21/2025 14:16:03",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:16:03",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "You may now begin working with Terraform. Try running \"terraform plan\" to see"
+}
+{
+  "timestamp": "01/21/2025 14:16:03",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "any changes that are required for your infrastructure. All Terraform commands"
+}
+{
+  "timestamp": "01/21/2025 14:16:03",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "should now work."
+}
+{
+  "timestamp": "01/21/2025 14:16:03",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:16:03",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "If you ever set or change modules or backend configuration for Terraform,"
+}
+{
+  "timestamp": "01/21/2025 14:16:03",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "rerun this command to reinitialize your working directory. If you forget, other"
+}
+{
+  "timestamp": "01/21/2025 14:16:03",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "commands will detect it and remind you to do so if necessary."
+}
+{
+  "timestamp": "01/21/2025 14:16:03",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:16:03",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ">>> Creating Terraform Plan..."
+}
+{
+  "timestamp": "01/21/2025 14:16:03",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:16:09",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration.configStore: Refreshing state... [id=/subscriptions/63862159-43c8-47f7-9f6f-6c63d56b0e17/resourceGroups/ade-sandbox-project-appconfig-tf/providers/Microsoft.AppConfiguration/configurationStores/appconfig-demo-delme]"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "Note: Objects have changed outside of Terraform"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "Terraform detected the following changes made outside of Terraform since the"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "last \"terraform apply\" which may have affected this plan:"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "  # azurerm_app_configuration.configStore has been deleted"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "  - resource \"azurerm_app_configuration\" \"configStore\" {"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "      - endpoint                   = \"https://appconfig-demo-delme.azconfig.io\" -> null"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "      - id                         = \"/subscriptions/63862159-43c8-47f7-9f6f-6c63d56b0e17/resourceGroups/ade-sandbox-project-appconfig-tf/providers/Microsoft.AppConfiguration/configurationStores/appconfig-demo-delme\" -> null"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "        name                       = \"appconfig-demo-delme\""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "        tags                       = {"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "            \"ade_environment\"      = \"appconfig-tf\""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "            \"ade_environment_type\" = \"Sandbox\""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "            \"ade_subscription\"     = \"63862159-43c8-47f7-9f6f-6c63d56b0e17\""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "            \"environment\"          = \"appconfig-tf\""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "        }"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "        # (10 unchanged attributes hidden)"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "    }"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "Unless you have made equivalent changes to your configuration, or ignored the"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "relevant attributes using ignore_changes, the following plan may include"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "actions to undo or respond to these changes."
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "Terraform used the selected providers to generate the following execution"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "plan. Resource actions are indicated with the following symbols:"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "  + create"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "Terraform will perform the following actions:"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "  # azurerm_app_configuration.configStore will be created"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "  + resource \"azurerm_app_configuration\" \"configStore\" {"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "      + endpoint                   = (known after apply)"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "      + id                         = (known after apply)"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "      + local_auth_enabled         = true"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "      + location                   = \"westus2\""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "      + name                       = \"appconfig-demo-delme\""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "      + primary_read_key           = (known after apply)"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "      + primary_write_key          = (known after apply)"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "      + purge_protection_enabled   = false"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "      + resource_group_name        = \"ade-sandbox-project-appconfig-tf\""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "      + secondary_read_key         = (known after apply)"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "      + secondary_write_key        = (known after apply)"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "      + sku                        = \"standard\""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "      + soft_delete_retention_days = 7"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "      + tags                       = {"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "          + \"ade_environment\"      = \"appconfig-tf\""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "          + \"ade_environment_type\" = \"Sandbox\""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "          + \"ade_subscription\"     = \"63862159-43c8-47f7-9f6f-6c63d56b0e17\""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "          + \"environment\"          = \"appconfig-tf\""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "        }"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "    }"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "  # azurerm_app_configuration_key.configStoreKey[\"myKey\"] will be created"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "  + resource \"azurerm_app_configuration_key\" \"configStoreKey\" {"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "      + configuration_store_id = (known after apply)"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "      + content_type           = (known after apply)"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "      + etag                   = (known after apply)"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "      + id                     = (known after apply)"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "      + key                    = \"myKey\""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "      + locked                 = false"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "      + type                   = \"kv\""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "      + value                  = \"Key-value without label\""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "    }"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "  # azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"] will be created"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "  + resource \"azurerm_app_configuration_key\" \"configStoreKey\" {"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "      + configuration_store_id = (known after apply)"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "      + content_type           = (known after apply)"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "      + etag                   = (known after apply)"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "      + id                     = (known after apply)"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "      + key                    = \"myKey$myLabel\""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "      + locked                 = false"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "      + type                   = \"kv\""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "      + value                  = \"Key-value with label\""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "    }"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "Plan: 3 to add, 0 to change, 0 to destroy."
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "Changes to Outputs:"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "  ~ appConfigEndpoint = \"https://appconfig-demo-delme.azconfig.io\" -> (known after apply)"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "  ~ appConfigId       = \"/subscriptions/63862159-43c8-47f7-9f6f-6c63d56b0e17/resourceGroups/ade-sandbox-project-appconfig-tf/providers/Microsoft.AppConfiguration/configurationStores/appconfig-demo-delme\" -> (known after apply)"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "Warnings:"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "- Value for undeclared variable"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "- Value for undeclared variable"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "- Values for undeclared variables"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "To see the full warning notes, run Terraform without -compact-warnings."
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "Saved the plan to: /environment.tfplan"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "To perform exactly these actions, run the following command to apply:"
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "    terraform apply \"/environment.tfplan\""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ">>> Applying Terraform Plan..."
+}
+{
+  "timestamp": "01/21/2025 14:16:10",
+  "type": "log",
+  "filename": "Deploy",
+  "content": ""
+}
+{
+  "timestamp": "01/21/2025 14:16:14",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration.configStore: Creating..."
+}
+{
+  "timestamp": "01/21/2025 14:16:24",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration.configStore: Still creating... [10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:16:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration.configStore: Creation complete after 13s [id=/subscriptions/63862159-43c8-47f7-9f6f-6c63d56b0e17/resourceGroups/ade-sandbox-project-appconfig-tf/providers/Microsoft.AppConfiguration/configurationStores/appconfig-demo-delme]"
+}
+{
+  "timestamp": "01/21/2025 14:16:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Creating..."
+}
+{
+  "timestamp": "01/21/2025 14:16:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Creating..."
+}
+{
+  "timestamp": "01/21/2025 14:16:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:16:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:16:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:16:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:16:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:16:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:17:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:17:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:17:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:17:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:17:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [1m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:17:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [1m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:17:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [1m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:17:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [1m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:17:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [1m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:17:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [1m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:17:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [1m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:17:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [1m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:18:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [1m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:18:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [1m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:18:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [1m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:18:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [1m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:18:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [2m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:18:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [2m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:18:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [2m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:18:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [2m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:18:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [2m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:18:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [2m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:18:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [2m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:18:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [2m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:19:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [2m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:19:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [2m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:19:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [2m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:19:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [2m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:19:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [3m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:19:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [3m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:19:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [3m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:19:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [3m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:19:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [3m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:19:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [3m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:19:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [3m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:19:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [3m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:20:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [3m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:20:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [3m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:20:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [3m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:20:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [3m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:20:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [4m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:20:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [4m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:20:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [4m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:20:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [4m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:20:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [4m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:20:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [4m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:20:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [4m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:20:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [4m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:21:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [4m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:21:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [4m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:21:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [4m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:21:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [4m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:21:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [5m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:21:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [5m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:21:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [5m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:21:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [5m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:21:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [5m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:21:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [5m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:21:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [5m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:21:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [5m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:22:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [5m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:22:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [5m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:22:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [5m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:22:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [5m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:22:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [6m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:22:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [6m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:22:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [6m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:22:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [6m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:22:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [6m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:22:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [6m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:22:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [6m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:22:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [6m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:23:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [6m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:23:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [6m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:23:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [6m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:23:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [6m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:23:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [7m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:23:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [7m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:23:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [7m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:23:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [7m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:23:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [7m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:23:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [7m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:23:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [7m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:23:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [7m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:24:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [7m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:24:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [7m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:24:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [7m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:24:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [7m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:24:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [8m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:24:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [8m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:24:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [8m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:24:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [8m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:24:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [8m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:24:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [8m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:24:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [8m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:24:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [8m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:25:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [8m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:25:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [8m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:25:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [8m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:25:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [8m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:25:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [9m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:25:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [9m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:25:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [9m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:25:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [9m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:25:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [9m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:25:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [9m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:25:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [9m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:25:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [9m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:26:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [9m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:26:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [9m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:26:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [9m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:26:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [9m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:26:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [10m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:26:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [10m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:26:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [10m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:26:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [10m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:26:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [10m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:26:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [10m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:26:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [10m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:26:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [10m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:27:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [10m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:27:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [10m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:27:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [10m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:27:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [10m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:27:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [11m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:27:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [11m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:27:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [11m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:27:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [11m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:27:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [11m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:27:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [11m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:27:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [11m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:27:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [11m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:28:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [11m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:28:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [11m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:28:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [11m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:28:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [11m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:28:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [12m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:28:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [12m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:28:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [12m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:28:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [12m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:28:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [12m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:28:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [12m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:28:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [12m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:28:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [12m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:29:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [12m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:29:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [12m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:29:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [12m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:29:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [12m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:29:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [13m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:29:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [13m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:29:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [13m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:29:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [13m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:29:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [13m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:29:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [13m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:29:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [13m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:29:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [13m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:30:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [13m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:30:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [13m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:30:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [13m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:30:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [13m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:30:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [14m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:30:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [14m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:30:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [14m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:30:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [14m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:30:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [14m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:30:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [14m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:30:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [14m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:30:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [14m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:31:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [14m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:31:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [14m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:31:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [14m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:31:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [14m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:31:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [15m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:31:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [15m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:31:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [15m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:31:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [15m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:31:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [15m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:31:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [15m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:31:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [15m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:31:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [15m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:32:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [15m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:32:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [15m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:32:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [15m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:32:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [15m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:32:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [16m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:32:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [16m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:32:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [16m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:32:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [16m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:32:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [16m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:32:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [16m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:32:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [16m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:32:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [16m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:33:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [16m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:33:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [16m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:33:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [16m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:33:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [16m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:33:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [17m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:33:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [17m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:33:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [17m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:33:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [17m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:33:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [17m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:33:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [17m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:33:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [17m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:33:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [17m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:34:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [17m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:34:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [17m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:34:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [17m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:34:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [17m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:34:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [18m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:34:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [18m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:34:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [18m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:34:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [18m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:34:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [18m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:34:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [18m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:34:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [18m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:34:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [18m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:35:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [18m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:35:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [18m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:35:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [18m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:35:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [18m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:35:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [19m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:35:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [19m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:35:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [19m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:35:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [19m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:35:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [19m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:35:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [19m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:35:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [19m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:35:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [19m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:36:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [19m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:36:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [19m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:36:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [19m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:36:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [19m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:36:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [20m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:36:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [20m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:36:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [20m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:36:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [20m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:36:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [20m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:36:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [20m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:36:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [20m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:36:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [20m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:37:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [20m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:37:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [20m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:37:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [20m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:37:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [20m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:37:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [21m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:37:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [21m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:37:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [21m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:37:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [21m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:37:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [21m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:37:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [21m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:37:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [21m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:37:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [21m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:38:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [21m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:38:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [21m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:38:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [21m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:38:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [21m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:38:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [22m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:38:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [22m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:38:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [22m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:38:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [22m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:38:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [22m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:38:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [22m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:38:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [22m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:38:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [22m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:39:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [22m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:39:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [22m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:39:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [22m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:39:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [22m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:39:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [23m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:39:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [23m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:39:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [23m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:39:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [23m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:39:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [23m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:39:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [23m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:39:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [23m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:39:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [23m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:40:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [23m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:40:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [23m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:40:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [23m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:40:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [23m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:40:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [24m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:40:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [24m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:40:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [24m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:40:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [24m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:40:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [24m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:40:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [24m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:40:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [24m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:40:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [24m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:41:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [24m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:41:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [24m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:41:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [24m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:41:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [24m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:41:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [25m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:41:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [25m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:41:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [25m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:41:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [25m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:41:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [25m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:41:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [25m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:41:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [25m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:41:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [25m31s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:42:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [25m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:42:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [25m41s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:42:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [25m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:42:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [25m51s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:42:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [26m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:42:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [26m1s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:42:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [26m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:42:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [26m11s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:42:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [26m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:42:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [26m21s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:42:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [26m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:42:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [26m31s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:43:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [26m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:43:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [26m41s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:43:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [26m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:43:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [26m51s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:43:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [27m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:43:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [27m1s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:43:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [27m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:43:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [27m11s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:43:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [27m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:43:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [27m21s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:43:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [27m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:43:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [27m31s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:44:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [27m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:44:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [27m41s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:44:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [27m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:44:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [27m51s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:44:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [28m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:44:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [28m1s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:44:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [28m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:44:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [28m11s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:44:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [28m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:44:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [28m21s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:44:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [28m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:44:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [28m31s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:45:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [28m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:45:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [28m41s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:45:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [28m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:45:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [28m51s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:45:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [29m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:45:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [29m1s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:45:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [29m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:45:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [29m11s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:45:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [29m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:45:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [29m21s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:45:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [29m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:45:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [29m31s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:46:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [29m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:46:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [29m41s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:46:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [29m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:46:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [29m51s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:46:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [30m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:46:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [30m1s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:46:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [30m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:46:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [30m11s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:46:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [30m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:46:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [30m21s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:46:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [30m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:46:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [30m31s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:47:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [30m40s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:47:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [30m41s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:47:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [30m50s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:47:18",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [30m51s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:47:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [31m0s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:47:28",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [31m1s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:47:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [31m10s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:47:38",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [31m11s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:47:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [31m20s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:47:48",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [31m21s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:47:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [31m30s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:47:58",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [31m31s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:48:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey$myLabel\"]: Still creating... [31m41s elapsed]"
+}
+{
+  "timestamp": "01/21/2025 14:48:08",
+  "type": "log",
+  "filename": "Deploy",
+  "content": "azurerm_app_configuration_key.configStoreKey[\"myKey\"]: Still creating... [31m41s elapsed]"
+}
